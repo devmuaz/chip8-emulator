@@ -1,6 +1,7 @@
 #ifndef CHIP8_EMULATOR_APPLICATION_H
 #define CHIP8_EMULATOR_APPLICATION_H
 
+#include <raylib.h>
 #include "Audio.h"
 #include "Chip8.h"
 #include "Input.h"
@@ -15,8 +16,10 @@ public:
 
     void Run();
 
+    Font GetFont() const { return m_Font; }
+
 private:
-    void m_Start(std::string_view romPath);
+    void m_Start(std::string_view rom);
 
     void m_Update();
 
@@ -24,10 +27,14 @@ private:
 
     void m_HandleSpeedControls();
 
+    void m_LoadFont();
+
     Chip8 m_Chip8;
     Renderer m_Renderer;
     Input m_Input;
     Audio m_Audio;
+    Font m_Font{};
+    bool m_UsingCustomFont;
 
     float m_TimerAccumulator;
     float m_SpeedMultiplier;

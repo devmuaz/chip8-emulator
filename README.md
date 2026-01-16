@@ -13,12 +13,12 @@ CHIP-8 opcodes and provides a modern, user-friendly interface.
 
 |                           ROM Selection Menu                           |                           Pong Gameplay                           |
 |:----------------------------------------------------------------------:|:-----------------------------------------------------------------:|
-| <img src="screenshots/main.jpg" alt="ROM Selection Menu" width="400"/> | <img src="screenshots/pong.jpg" alt="Pong Gameplay" width="400"/> |
+| <img src="screenshots/main.png" alt="ROM Selection Menu" width="400"/> | <img src="screenshots/pong.png" alt="Pong Gameplay" width="400"/> |
 |              *Browse and select from available ROM files*              |                  *Classic Pong game with sound*                   |
 
 |                            Tetris Gameplay                            |                             IBM Logo                             |
 |:---------------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="screenshots/tetris.jpg" alt="Tetris Gameplay" width="400"/> | <img src="screenshots/ibm_logo.jpg" alt="IBM Logo" width="400"/> |
+| <img src="screenshots/tetris.png" alt="Tetris Gameplay" width="400"/> | <img src="screenshots/ibm-logo.png" alt="IBM Logo" width="400"/> |
 |                   *Tetris running on the emulator*                    |                       *Display IBMs logo*                        |
 
 </div>
