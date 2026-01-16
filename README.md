@@ -1,10 +1,10 @@
 # CHIP-8 Emulator
 
-A simple CHIP-8 emulator written in C++23 using Raylib for graphics and audio. This emulator implements all 35
+A simple CHIP-8 emulator written in C++20 using Raylib for graphics and audio. This emulator implements all 35
 CHIP-8 opcodes and provides a modern, user-friendly interface.
 
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
-![C++](https://img.shields.io/badge/C++-23-blue)
+![C++](https://img.shields.io/badge/C++-20-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Screenshots
@@ -37,10 +37,10 @@ CHIP-8 opcodes and provides a modern, user-friendly interface.
 ### Dependencies
 
 - **CMake** 3.20 or higher
-- **C++23 compatible compiler**:
-    - GCC 13+ (Linux)
-    - Clang 16+ (macOS/Linux)
-    - MSVC 2022+ (Windows)
+- **C++20 compatible compiler**:
+    - GCC 10+ (Linux)
+    - Clang 12+ (macOS/Linux)
+    - MSVC 2019+ (Windows)
 - **Raylib** 5.0 or higher
 
 ### Installing Raylib
@@ -212,7 +212,7 @@ If CMake can't find Raylib:
 
 ### Build errors
 
-- Ensure you have a C++23 compatible compiler
+- Ensure you have a C++20 compatible compiler
 - Update CMake to version 3.20 or higher
 - On Windows, make sure you have Visual Studio Build Tools installed
 
